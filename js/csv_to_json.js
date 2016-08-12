@@ -176,7 +176,7 @@ rdLine.on('line', function(line){
 
     for(var ac=0;ac<southEurope.length;ac++)
     {
-      if(centralEurope[ac]==splitted_data[index_country])
+      if(southEurope[ac]==splitted_data[index_country])
       {
         var value_region="South Europe"
         var value_country_2=splitted_data[index_country];
