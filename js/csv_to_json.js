@@ -136,7 +136,7 @@ rdLine.on('line', function(line){
 
     for(var ab=0;ab<centralEurope.length;ab++)
     {
-      if(centralEurope[aa]==splitted_data[index_country])
+      if(centralEurope[ab]==splitted_data[index_country])
       {
         var value_region="Central Europe"
         var value_country_2=splitted_data[index_country];
@@ -176,7 +176,7 @@ rdLine.on('line', function(line){
 
     for(var ac=0;ac<southEurope.length;ac++)
     {
-      if(centralEurope[aa]==splitted_data[index_country])
+      if(centralEurope[ac]==splitted_data[index_country])
       {
         var value_region="South Europe"
         var value_country_2=splitted_data[index_country];
@@ -223,8 +223,8 @@ rdLine.on('line', function(line){
 });
 
 rdLine.on("close" , () =>{
-  fs.writeFile('../files/salt_plus_sugar_full_new_3.json', JSON.stringify(sugar_salt) , 'utf-8');
-  fs.writeFile('../files/fat_protein_carbohydrate_full_new_3.json', JSON.stringify(multi_series) , 'utf-8');
+  fs.writeFile('../files/salt_plus_sugar_full_new_4.json', JSON.stringify(sugar_salt) , 'utf-8');
+  fs.writeFile('../files/fat_protein_carbohydrate_full_new_4.json', JSON.stringify(multi_series) , 'utf-8');
 });
 
 
