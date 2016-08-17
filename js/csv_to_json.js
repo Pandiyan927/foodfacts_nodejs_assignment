@@ -222,8 +222,8 @@ rdLine.on('line', function(line){
 });
 
 rdLine.on("close" , () =>{
-  fs.writeFile('../json/salt_plus_sugar_full_new_4.json', JSON.stringify(sugar_salt) , 'utf-8');
-  fs.writeFile('../json/fat_protein_carbohydrate_full_new_4.json', JSON.stringify(multi_series) , 'utf-8');
+  fs.writeFile('../json/salt_plus_sugar_full_new_5.json', JSON.stringify(sugar_salt) , 'utf-8');
+  fs.writeFile('../json/fat_protein_carbohydrate_full_new_5.json', JSON.stringify(multi_series) , 'utf-8');
 });
 
 
